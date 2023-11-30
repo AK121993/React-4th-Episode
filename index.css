@@ -1,15 +1,19 @@
 #heading {
   color: blueviolet;
 }
+.bar {
+  display: flex;
+}
 .icons {
+  padding: 3px;
   width: 100px;
-  height: 60px;
+  height: 50px;
   background-color: rgb(196, 228, 255);
   border-radius: 50px;
   border: 2px dashed darkcyan;
 }
 .searchbox {
-  margin: 1pc;
+  padding: 3px;
   width: 200px;
   height: 50px;
   color: rgb(88, 55, 61);

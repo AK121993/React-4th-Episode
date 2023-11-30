@@ -86,7 +86,7 @@ const JsxnestedComponents1 = () => (
 // Assignement 3 Part B
 
 const HeaderComponent = () => (
-  <div>
+  <div className="bar">
     <img id="logo" className="icons" src={logo} alt="Logo Image" />
     <input className="searchbox" type="text" placeholder="Enter to Search" />
     <img id="user" className="icons" src={user} alt="User Icon" />
