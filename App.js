@@ -54,9 +54,9 @@ const nestedElement = React.createElement("div", { className: "title" }, [
 //case 2
 const jsxnestedElement = (
   <div className="title">
-    <h1>This is Firstelement. </h1>
-    <h2>This is Secondelement.</h2>
-    <h3>This is Thirdelement.</h3>
+    <h1>This is First element. </h1>
+    <h2>This is Second element.</h2>
+    <h3>This is Third element.</h3>
   </div>
 );
 //root.render(jsxnestedElement);
@@ -64,9 +64,9 @@ const jsxnestedElement = (
 const JsxnestedComponents = () => (
   <div className="title">
     {jsxnestedElement}
-    <h1>This is Firstelement from JsxnestedComponents. </h1>
-    <h2>This is Secondelement from JsxnestedComponents.</h2>
-    <h3>This is Thirdlement from JsxnestedComponents.</h3>
+    <h1>This is First element from JsxnestedComponents. </h1>
+    <h2>This is Second element from JsxnestedComponents.</h2>
+    <h3>This is Third element from JsxnestedComponents.</h3>
   </div>
 );
 //root.render(<JsxnestedComponents />);
@@ -74,9 +74,9 @@ const JsxnestedComponents = () => (
 const JsxnestedComponents1 = () => (
   <div className="title">
     <JsxnestedComponents />
-    <h1>This is Firstelement from JsxnestedComponents1. </h1>
-    <h2>This is Secondelement from JsxnestedComponents1.</h2>
-    <h3>This is Thirdelement from JsxnestedComponents1.</h3>
+    <h1>This is First element from JsxnestedComponents1. </h1>
+    <h2>This is Second element from JsxnestedComponents1.</h2>
+    <h3>This is Third element from JsxnestedComponents1.</h3>
   </div>
 );
 //console.log(JsxnestedComponents);
